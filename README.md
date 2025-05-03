@@ -1,6 +1,8 @@
 # 19CS301Module-9
+
 ### EX: 9.1                                            MATRIX OPERATIONS
 ### Aim: To Write a Python Program to subtract two matrices by reading the matrix from the user.
+
 ### Algorithm:
 
 STEP 1: Start.
@@ -18,6 +20,9 @@ STEP 6: Print the result.
 STEP 7 : Stop.
 ### Program:
 ```
+## Reg no: 212223020018
+## Name: Mohamed Jafin S
+
 def create_matrix(n,m):
          M = []
          for i in range(n):
@@ -46,10 +51,13 @@ print(C)
 ### Output:
 ![image](https://github.com/user-attachments/assets/b1125b13-d26e-4404-acce-7dd2c1d2011c)
 
-### Result: Thus, the given program is implemented and executed successfully .
+### Result:
+Thus, the given program is implemented and executed successfully .
 
 ### EX: 9.2 LIST COMPREHENSION
+
 ### Aim: To Write a Python class program to generate all even numbers between 200 and 300 and store in a list using list comprehension.
+
 ### Algorithm:
 STEP 1: Start.
 
@@ -67,6 +75,8 @@ STEP 7 : Stop.
 
 ### Program:
 ```
+## Reg no:212223020018
+## Name: Mohamed Jafin S
 class program:
 
       def  __init__(self,a,b,c):
@@ -86,9 +96,11 @@ obj.display()
 ### Output:
  ![image](https://github.com/user-attachments/assets/a9707d46-2d47-4472-a6b3-b407a6f6ef71)
 
-### Result: Thus, the given program is implemented and executed successfully .
+### Result: 
+Thus, the given program is implemented and executed successfully .
 
 ### EX: 9.3 ADVANCED LIST PROCESSING
+
 ### Aim: To Write a Python program to Find the transpose of a matrix using list Comprehension.
 
 ### Algorithm:
@@ -109,6 +121,8 @@ STEP 7 : Stop.
 
 ### Program:
 ```
+## Reg no:212223020018
+## Name: Mohamed Jafin S
 def create(r,c):
             M=[]
         for i in range(int(r)):
@@ -127,13 +141,14 @@ T = [[r[i]for r in matrix]for i in range(len(matrix[0]))]
 ### Output:
 ![image](https://github.com/user-attachments/assets/411a227a-f44d-4b1a-b489-c7592dddbb67)
 
-### Result: Thus, the given program is implemented and executed successfully .
+### Result:
+Thus, the given program is implemented and executed successfully .
  
 
 
 ### EX: 9.4       TOEPLITZ MATRIX
-### Aim: To Write a Python Program to check whether the given matrix is Toeplitz Matrix.
 
+### Aim: To Write a Python Program to check whether the given matrix is Toeplitz Matrix.
 
 ### Algorithm:
 STEP 1: Start.
@@ -150,9 +165,10 @@ STEP 6: Print the result.
 
 STEP 7 : Stop.
 
-
 ### Program:
 ```
+## Reg no:212223020018
+## Name:Mohamed Jafin S
 def create_matrix(n,m):
         M=[]
         for i in range(n):
@@ -186,6 +202,40 @@ if isThoeplitz(A):
 
 ![image](https://github.com/user-attachments/assets/0fb8f81b-ab07-4b3e-b273-035a0f38566d)
 
-### Result: Thus, the given program is implemented and executed successfully.
- 
+### Result: 
+Thus, the given program is implemented and executed successfully.
 
+### EX: 9.5 SEB
+
+### Aim:Write a Python program to filter the odd and even numbers  in a list using filter (  )
+
+### Algorithm:
+1.Read the number of elements n and create an empty list l.
+
+2.Accept n integers from the user and append them to the list l.
+
+3.Use the filter() function with a lambda function to separate even and odd numbers.
+
+4.Print the filtered even and odd numbers.
+
+### Program:
+```
+## Reg no:212223020018
+## Name:Mohamed Jafin S
+n=int(input())
+l=[]
+for i in range(n):
+    x=int(input())
+    l.append(x)
+even=[x for x in l if x%2==0]
+odd=[x for x in l if x%2!=0]
+print(even)
+print(odd)
+
+```
+### Output:
+![image](https://github.com/user-attachments/assets/c90849df-d841-4c4c-9394-ae3fedecad5a)
+
+### Result: 
+Thus, the given program is implemented and executed successfully.
+ 
